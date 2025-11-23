@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .box{
+            background-color: aqua;
+        }   
+        .box1{
+            padding: 10px;
+            color: red;
+            margin: 10px;
+            border: 10px solid red;
+            height:  200px ;
+            box-sizing: border-box;   /*yo bahut importanat xa ,yesko matlab ke chai ho bhane jun yeslai height diyeko chha tyo content,padding ra border sahit ko ho bhanera januxa, yedi yo hataiyo bhane tyo height chai content ko matra ho bhanni bujinxa , to clear hogaya */
+        }
+      .box2{
+            padding: 10px;
+            color: green;
+            margin: 10px;
+            border: 10px solid red;
+            height:  200px ;
+            box-sizing: border-box;   
+        }
+        /* Mathiko ko duitai box ma maile margin 10 10 diyeko chhu,duitako bichma ta aba 20 margin hunuparyo ni ta tara hudaina kinabhane margin collpse hunxa yesari dui wota margin chha bhane css le jun chaiko margin dherai chha tei nai dekhauxa baki dekhaudaina */
+    </style>
+</head>
+<body>
+
+    <div class="box">
+         I am a B0x
+    </div>
+
+    <div class="box box1">
+        I am a another box 1
+    </div>
+
+    <div class="box box2">
+        I am a anothe Box
+    </div>
+    
+</body>
+</html>

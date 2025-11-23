@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* This is element selector */
+        div{
+
+            background-color: red;
+        }
+        /* Class Selector */
+        .divclass{
+            background-color: green;
+        }
+        /* Id Selector */
+        #divId{
+            background-color: aqua;
+        }
+        /* child Selector */
+        /* Div bhitra directly p aayo bhane matra dinchha  (Direct Child Hunu paryo) */
+        div>p{
+            background-color: blue;
+        }
+
+        /* Descendent Selector */
+        /* Div bhitra p bhaye hunxa (Direct Child nai hunuparxa bhanne xaina) */
+
+        div p{
+            background-color: beige;
+        }
+
+
+
+        /* Universal Selector */
+        /* Bhayebharko sabai nai select garne garxa  */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* PSeudo Selectors */
+        a:hover{
+            background-color: red;
+        }
+        a:visited{
+            background-color: black;
+        }
+        a:active{
+            background-color: blue
+        }
+
+        /* First Child Selector */
+        /* Yedi P chai kunapani element ko first child chha  bhane yo lagxa  */
+        /* P:first-child{
+            background-color: violet;
+        } */
+    </style>
+</head>
+<body>
+
+    <div>
+        Hello I am A Div with element selector
+    </div>
+    <br>
+    <div class="divclass">
+        Hello I am a Div with Class Selector
+    </div>
+    <br>
+
+    <div id="divId">
+        Hello I am a Div with id Selector
+    </div>
+
+
+    <!-- Child selector -->
+     <div>
+        <p>I am a paragraph using child selector
+
+
+        </p>
+        <div>
+          <h1> Hello</h1> 
+          
+            <p>
+                Hello am 
+            </p>
+        </div>
+     </div>
+
+
+     <!-- Descendant Selector -->
+      <div>
+        <article>
+            <p>
+                I am from the descendant Selector
+            </p>
+        </article>
+      </div>
+
+
+      <!-- Pseudo Selector -->
+       <a href="https://facebook.com/" target="_blank">Go to the Facebook</a>
+    
+</body>
+</html>
