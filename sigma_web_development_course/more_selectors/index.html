@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* .box:first-child{
+        background-color: red;
+    }
+    .box::first-line{
+        color: yellow;
+    } */
+
+    .boxes *{
+        color: red;
+        border: 2px solid black;
+
+    }
+    [data-color="primary"]{
+        margin-top: 45px;
+
+    }
+</style>
+<body>
+    <div class="boxes">
+        <div class="box"  data-color="Primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum debitis omnis quasi! Mollitia enim vitae minus architecto veritatis sunt iste fuga, rerum quibusdam, pariatur suscipit neque delectus. Vel itaque debitis omnis dicta modi dolor tempore adipisci quasi nihil nemo temporibus, voluptatem illum ipsum consectetur suscipit est, qui enim labore tenetur ullam unde excepturi soluta. Ipsum!</div>
+        <div class="box">Hey I am a Box</div>
+        <div class="box">Hey I am a Box</div>
+    </div>
+    
+</body>
+</html>
