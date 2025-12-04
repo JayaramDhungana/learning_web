@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-navbar {
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #014536, #04734B);
+}
+
+top-navbar img {
+    object-fit: contain;
+}
+
+.deliver-to-nepal {
+    display: flex;
+    align-items: end;
+}
+
+.deliver-to-nepal ul {
+    list-style-type: none;
+    font-size: 1vw;
+}
+
+.deliver-to-nepal ul :first-child {
+    color: rgba(198, 197, 197, 0.949);
+    font-size: 1vw;
+}
+
+.deliver-to-nepal ul :nth-child(2) {
+    color: white;
+    font-size: 1vw;
+}
+
+.search-amazon {
+    width: 60vw;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search-all {
+    background-color: #D4D4D4;
+    color: black;
+    height: 100%;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 1vw;
+}
+
+.search-icon {
+    background-color: #e60b8f;
+    color: black;
+    height: 100%;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+
+.search-amazon input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.language span {
+    color: white;
+    font-size: 1vw;
+}
+
+.language {
+    display: flex;
+    align-items: end;
+    font-size: 1vw;
+}
+
+.signin-account-list ul {
+    list-style-type: none;
+    font-size: 1vw;
+}
+
+.signin-account-list li:first-child {
+    color: rgb(219, 215, 215);
+    font-size: 14px;
+    font-size: 1vw;
+}
+
+.signin-account-list li:nth-child(2) {
+    color: white;
+    font-size: 1vw;
+}
+
+.return-order ul {
+    list-style-type: none;
+}
+
+.return-order li:first-child {
+    color: rgb(219, 215, 215);
+    font-size: 1vw
+}
+
+.return-order li:nth-child(2) {
+    color: white;
+    font-size: 1vw
+}
+
+.cart {
+    display: flex;
+    align-items: end;
+    font-size: 1vw
+}
+
+.cart span {
+    color: white;
+    font-size: 1vw
+}
+
+.amazon-logo:hover,
+.deliver-to-nepal:hover,
+.search-amazon:hover,
+.language:hover,
+.signin-account-list:hover,
+.return-order:hover,
+.cart:hover,
+.all-menu:hover,
+.buttom-navbar p:hover {
+    border: 2px solid white;
+    height: 72%;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.buttom-navbar {
+    height: 50px;
+    background-color: #085749;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    color: white;
+    font-size: 1vw;
+}
+
+.fa-bars {
+    padding-left: 20px;
+    color: white;
+    height: 40px;
+}
+
+.all-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.all-menu span {
+    color: white;
+}
+
+.background-image img {
+    object-fit: fill;
+    width: 100%;
+}
+
+.background-image {
+    position: relative;
+    background-repeat: repeat;
+}
+
+.product-boxes {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    top: 360px;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom ,#04724B,#E3E6E6);
+}
+
+.product-box {
+    margin: 20px;
+    /* height: 50vh; */
+     width: 22vw;
+    background-color: white;
+}
+.product{
+    padding: 20px;
+    display: flex;
+   
+    flex-direction: column;
+}
+.product-title{
+    color: black;
+    font-size: clamp(0.8rem, 1.5vw, 3rem);
+    font-weight:900;
+}
+.product-images img{
+    height: 140%;
+    width: 100%;
+}
+.product-images{
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40% 5%;
+
+}
+
+.products-slogan{
+    padding-top: 55%;
+    padding-bottom: 2%;
+    flex: 1;
+    font-size: clamp(0.6rem, 1.2vw, 2rem);
+    color: #135992;
+}
+
+.image-and-name p{
+    font-size: clamp(0.2rem, 0.9vw, 2rem);
+}
+
+
