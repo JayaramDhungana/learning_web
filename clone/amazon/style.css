@@ -212,14 +212,14 @@ top-navbar img {
     font-weight:900;
 }
 .product-images img{
-    height: 140%;
+    height: 120%;
     width: 100%;
 }
 .product-images{
     padding: 10px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40% 5%;
+    gap: 35% 5%;
 }
 .product-images-only-one{
     display: block;
@@ -232,9 +232,9 @@ top-navbar img {
 }
 
 .products-slogan{
-    padding-top: 55%;
+    padding-top: 45%;
     flex: 1;
-    font-size: clamp(0.3rem, 1.2vw, 2rem);
+    font-size: clamp(0.3rem, 1vw, 2rem);
     color: #135992;
 }
 
@@ -273,6 +273,23 @@ top-navbar img {
 
 .horizontal-product::-webkit-scrollbar {
     display: none; /* Chrome, Safari */
+}
+
+.product-title>span{
+    color: #135992;
+    font-size: 1vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.personalized-recommendations{
+    height: 20px;
+    width: 200px;
+    /* width: 100vw; */
+    background-color: red;
 }
 
 
