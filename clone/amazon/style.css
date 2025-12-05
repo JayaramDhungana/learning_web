@@ -177,20 +177,24 @@ top-navbar img {
 }
 
 .background-image img {
-    object-fit: fill;
+    /* object-fit: cover; */
     width: 100%;
+    height: auto;
+     height: 70vh;
 }
 
 .background-image {
     position: relative;
     background-repeat: repeat;
+    
 }
 
 .product-boxes {
-    position: absolute;
+    position: relative;
+    margin-top: -40vh;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    top: 360px;
+     /* top: 45%; */
     width: 100%;
     overflow: hidden;
     background: linear-gradient(to bottom ,#04724B,#E3E6E6);
@@ -286,10 +290,38 @@ main{
 }
 
 .personalized-recommendations{
-    height: 20px;
-    width: 200px;
-    /* width: 100vw; */
-    background-color: red;
+    margin: 5vh 0vh;
+    height: 18vh;
+    width: 99.5%;
+    /* background-color: red; */
+    border: 1px solid rgba(111, 105, 105, 0.218);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-in-button{
+    color: black;
+    background-color: #FFD814;
+    border-radius: 20px;
+    padding: 6px 5vw;
+    font-size: clamp(0.3rem, 1.1vw, 2rem);
+}
+
+.new-customer{
+    font-size: clamp(0.3rem, 0.8vw, 2rem);
+}
+.new-customer>span{
+    font-size: clamp(0.3rem, 0.8vw, 2rem);
+    color: #135992;
+    text-decoration: underline;
+    text-decoration-color:#135992; 
+}
+
+back-to-top{
+    
 }
 
 
