@@ -417,32 +417,33 @@ main {
 
 .buttom-footer {
     background-color: #131A22;
-    /* height: 50vh; */
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
     justify-items: center;
     padding-top: 5vh;
     overflow: hidden;
-    padding: 100px 200px;
+    padding: 50px 200px;
 }
 
 .bottom-footer-menu {
-    width: 80%;
-    max-width: 180px;
-    padding-top: 5vh;
-    color: white;
+    width:9%;
+    max-width: 30%;
     text-align: center;
-    /* width: 10vw; */
-    border: 1px solid red;
+}
+
+.bottom-footer-menu h4{
+    color: white;
+    font-size: clamp(0.3rem, 1vw, 2rem);
+
 }
 
 .bottom-footer-menu>ul {
     list-style-type: none;
 }
 
-.bottom-footer-menu>li {
-    font-size: clamp(0.1rem, 0.5vw, 2rem);
+.bottom-footer-menu li {
+     color: rgb(129, 123, 123);
+    font-size: clamp(0.3rem, 0.8vw, 2rem);
 }
